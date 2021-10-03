@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: #444444;
+}
+
+.text-description {
+  margin-bottom: 1.2rem;
+}
+
+.inline-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.inline-flex > div {
+  margin-left: 0.5rem;
+  max-width: 9rem;
+  text-align: left;
+}
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-width {
+  width: 8rem;
+}
+.form-group {
+  background-color: #fafafa;
+
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1.2rem;
+}
+.title-header {
+  padding: 0.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.category-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-left: 0.5rem solid #f43300;
+  padding-left: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+.agreement-container {
+  display: block;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+}
+.text-agreement {
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #898989;
+}
+.agreed {
+  display: block;
+  margin-top: 0.3rem;
+  font-weight: 500;
+}
+
+.submit-claim-btn {
+  background-color: #ff4d00;
+  border: 0.125rem solid #ff4d00;
+  min-width: 12rem;
+  color: #ffffff;
+  padding: 0.7rem 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 1;
+  transition: 0.3s;
+  grid-area: btn;
+}
+.submit-claim-btn:hover {
+  background-color: #f43300;
+  border: 0.125rem solid #f43300;
+  color: #fff;
+  cursor: pointer;
+}
+.submit-claim-btn:active {
+  background-color: #ff4d00;
+  border: 0.125rem solid #ff4d00;
+}
+.submit-btn-container {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.consent-container {
+  margin-top: 0.2rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+}

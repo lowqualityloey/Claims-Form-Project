@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.ignoreFiles": [
+    "**/db/*"
+  ],
+  "liveServer.settings.root": "/Submission"
+}

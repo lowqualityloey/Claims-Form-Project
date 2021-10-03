@@ -1,0 +1,17 @@
+{
+  "name": "05-proj-claims-form",
+  "author": "Developers Institute",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^27.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "private": "true"
+  }
+}

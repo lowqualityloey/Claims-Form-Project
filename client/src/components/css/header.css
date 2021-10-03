@@ -1,0 +1,69 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "logo banner"
+    "divider divider";
+}
+
+.logo {
+  background-image: url(../resources/logo/ensure-logo.svg);
+  background-position: 2.4rem 3rem;
+  background-repeat: no-repeat;
+  background-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  grid-area: logo;
+}
+.motto {
+  padding-bottom: 2rem;
+  width: 12rem;
+  margin-left: 2rem;
+  color: #898989;
+  text-indent: 0.1rem;
+}
+.banner {
+  background-image: url(../resources/banner/pexels-yan-krukov-5792901.jpg);
+  background-position: -14rem -1rem;
+  background-repeat: no-repeat;
+  background-size: 50rem;
+  grid-area: banner;
+  height: 16rem;
+}
+.divider {
+  font-family: "Fira Sans", sans-serif;
+  text-align: left;
+  grid-area: divider;
+  color: rgb(255, 255, 255);
+  background-color: #c91500;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-left: 1.8rem;
+}
+
+@media only screen and (min-width: 45rem) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "logo banner banner"
+      "divider divider divider";
+  }
+  .logo {
+    background-position: center;
+  }
+  .motto {
+    padding-bottom: 2.5rem;
+  }
+  .banner {
+    background-position: top;
+    height: 20rem;
+  }
+  .divider {
+    font-size: 1.4rem;
+    padding-left: 0.8rem;
+    text-align: center;
+  }
+}
